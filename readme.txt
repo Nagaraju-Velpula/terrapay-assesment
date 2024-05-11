@@ -41,17 +41,14 @@ python main.py <query_name> <start_date> <end_date> <category>
 
 Replace `<query_name>`, `<start_date>`, `<end_date>`, and `<category>` with the desired values for your SQL query.
 
-python main.py demand "2020-08-01" "2020-08-05" "T-Shirts"
+ python main.py demand "2010-12-01 08:26:00" "2010-12-06 09:58:00" "WHITE HANGING HEART T-LIGHT HOLDER"
 
 
-This command will run the SQL query named "demand" for the category "T-Shirts" within the time window from August 1, 2020, to August 5, 2020."
+This command will run the SQL query named "demand" for the category "WHITE HANGING HEART T-LIGHT HOLDERs" within the time window from "2010-12-01 08:26:00" "2010-12-06 09:58:00".
 
 ## Assumptions
 This section lists any assumptions made during the development of the tool.
 
-### Explanation:
-- **Assumptions**: Indicates that this section will list the assumptions made.
-- **Examples**: Provides examples of assumptions that may have been made, such as the environment setup or user permissions.
 
 ### Example:
 "- The MySQL database is running locally on default settings.
